@@ -1,0 +1,57 @@
+/*titre de la discussion*/
+#titleDiscussion h1{
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+/*message (les divs)*/
+.message:nth-child(even){
+    background-color: #ececec;
+    margin: 0;
+    padding: 15px 15px 5px 15px;
+    border-bottom: 3px solid #7b7b7b;
+    border-top: 3px solid #7b7b7b;
+}
+
+.message:nth-child(odd){
+    margin: 0;
+    padding: 15px 15px 5px 15px;
+}
+
+/*l'auteur*/
+.auteur p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.auteur img{
+    max-width: 80px;
+    max-height: 80px;
+}
+/*réponse*/
+.answer p{
+    white-space: pre-wrap;
+}
+.answer pre{
+    color: #696969;
+    font-size: 11px;
+    opacity: 0.5;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.reponse{
+    word-wrap: break-word;
+}
+
+/*pliantes (ajouter une réponse/question)*/
+.champMessage{
+    margin-top: 20px;
+}
+
+.collapsible-header{
+    font-weight: bold;
+    text-align: center;
+    background-color: #024967;
+    color: white;
+}

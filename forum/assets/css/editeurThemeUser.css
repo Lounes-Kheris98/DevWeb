@@ -1,0 +1,26 @@
+/*height de iframe de l'éditeur de texte pour la page de l'utilisateur Theme.php*/
+@media screen and (min-width:1283px){
+  #editor{
+    height: 532px;
+  }
+}
+@media screen and (min-width: 478px) and (max-width: 1283px){
+  #editor{
+    height: 569px;
+  }
+}
+@media screen and (min-width: 397px) and (max-width: 477px){
+  #editor{
+    height: 605px;
+  }
+}
+@media screen and (max-width: 396px){
+  #editor{
+    height: 641px;
+  }
+}
+@media screen and (max-width: 318px){
+  #editor{
+    height: 679px;
+  }
+}

@@ -1,0 +1,65 @@
+<!--le footer -->
+    <footer id="footer" class="page-footer #9e9e9e grey col l12 m12 s12">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <p class="grey-text text-lighten-4">Vous pouvez aussi accéder à :</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="../Aide/">Aide moderateur</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <p>© 2017 Copyright Right</p>
+            </div>
+        </div>
+    </footer>
+  </div>
+</div>
+<script type="text/javascript" src="../../framework/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="../../framework/materialize.min.js"></script>
+<script type="text/javascript">
+
+    //barre de navigation pour les pages de modérateurs
+    $(document).ready(function(){
+        $('.button-collapse').sideNav({
+            menuWidth: 330,
+            edge: 'left',
+            closeOnClick: false,
+            draggable: true
+        });
+    });
+
+    //boutton d"option pour les petits écrans
+    $(document).ready(function(){
+        $("#paramaitre").click(function(){
+            $("#listParamaitre").slideToggle("slow");
+        });
+    });
+
+    window.onclick = function(event) {
+      if(!event.target.matches('#paramaitre')){
+        var list = document.getElementById("listParamaitre");
+        if(list.style.display=="block"){
+          list.style.display="none";
+        }
+      }
+    }
+</script>
+<script type="text/javascript">
+  $(document).ready(function(){
+      $(".modal").modal();
+  });
+  $(document).ready(function(){
+    var position = $("#footer").position();
+    var screen = $(window).height();
+    if ( ( position.top + 123 ) < screen ){
+      var marge = screen-123;
+      $("#footer").offset({top:marge});
+    }
+  });
+</script>

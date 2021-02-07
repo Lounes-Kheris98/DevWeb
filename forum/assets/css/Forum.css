@@ -1,0 +1,36 @@
+/*le css de la page Forum.php de l'user et forum.php de moderateur*/
+
+/*le grand titre*/
+.bigTitle h1{
+    font-size: xx-large;
+}
+
+/*le conteneur des forums*/
+.listForum{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+/*les forums*/
+@media screen and (max-width:992px){
+    .theme{
+        margin-right: 30px;
+    }
+}
+
+.theme{
+    border-bottom: 3px solid #696969;
+    margin: 30px 41px;
+    background-color: #ececec;
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+.theme h3{
+    font-size: 25px;
+}
+
+.theme h5{
+    font-size: 14px;
+    color: #565656;
+}

@@ -1,0 +1,47 @@
+/*formulaire de modification des infos de l'utilisateurs pour la compte.php*/
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+#info_user{
+     margin-top:40px;
+}
+
+legend{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.input-field{
+    margin-top: 23px;
+}
+
+.input-field:last-child{
+    margin-bottom: 18px;
+}
+/*les champs d'affichage des erreurs*/
+span.erreur{
+    color: #039be5 !important;
+}
+/*boutton de de validation des modification*/
+.button{
+    margin-bottom: 25px;
+}
+
+.input-field input[type=text]:focus {
+     border-bottom: 1px solid #039be5;
+     box-shadow: 0 1px 0 0 #039be5;
+}
+
+.input-field input[type=password]:focus{
+    border-bottom: 1px solid #039be5;
+    box-shadow: 0 1px 0 0 #039be5;
+}
+
+.input-field input[type=number]:focus{
+    border-bottom: 1px solid #039be5;
+    box-shadow: 0 1px 0 0 #039be5;
+}

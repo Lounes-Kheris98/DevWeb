@@ -1,0 +1,31 @@
+.listCategorie{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.bigTitle h1{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.cat{
+  height: 342px;
+  margin: 30px 41px;
+  background-color: #ececec;
+  box-shadow: 0px 0px 5px 0px black;
+}
+.cat img{
+  height: 83%;
+}
+@media screen and (max-width:992px){
+    .cat{
+        margin-right: 30px;
+    }
+}
+
+.cat h4{
+    font-size: 25px;
+    color: #3e487b;
+}

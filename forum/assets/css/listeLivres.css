@@ -1,0 +1,31 @@
+#listLivre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#titreCat{
+    margin-left: 2vw;
+}
+
+#titreCat h1{
+    font-weight: bold;
+    font-size: 1.5em;
+    white-space: nowrap;
+    margin-bottom: 0px;
+}
+
+.livre.l.ll{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+@media screen and (max-width:992px){
+    .livre.l.ll{
+        margin-left: 10px;
+    }
+}
+
+.activator{
+    height: 300px;
+}

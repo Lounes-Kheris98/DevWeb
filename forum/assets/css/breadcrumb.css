@@ -1,0 +1,113 @@
+/*la barre de navigation*/
+.breadcrumb{
+    font-size: 16px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+    overflow: hidden;
+}
+@media screen and (max-width:601px){
+    /*la barre de menu*/
+    #breadcrumb{
+        margin-left: -5px;
+        position: absolute;
+        left: 0px;
+    }
+    /*boutton de la barre de navigation*/
+    #bouttonMenu{
+        padding: 2px 12px;
+        left: 5px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:993px){
+    #breadcrumb{
+        margin-left: -5px;
+        position: absolute;
+        left: 0px;
+    }
+    #bouttonMenu{
+        padding: 2px 12px;
+        left: 5px;
+    }
+}
+
+/*chemin sous la barre de menu*/
+.chemin{
+    margin-top: 53px;
+    margin-left: 16px;
+}
+
+.breadcrumb:before{
+    content: '>';
+    font-weight: bold;
+    color: #039be5;
+    vertical-align: sub;
+}
+
+/*boutton de la barre de menu*/
+#connect a{
+    padding: 0px 12px;
+}
+
+@media screen and (max-width:601px){
+    #connect a{
+        font-size: 11px;
+    }
+    /*l'image de la boite de connexion*/
+    #imagelogin{
+      width: 100px;
+    }
+    /*boutton de valider ou annuler de connexion*/
+    .login , .cancel{
+      padding: 0rem 0.8rem;
+    }
+}
+
+@media screen and (min-width:601px){
+  #imagelogin{
+    width: 160px;
+  }
+}
+
+/*boutton de d'option pour les petits écrans*/
+#paramaitre{
+  padding: 0px 11px;
+  margin-left: 3px;
+}
+/*la fléche au-dessus de menu*/
+#fleche{
+  display: block;
+  padding: 0px 0px;
+  margin: 0px;
+  background-color: transparent;
+  position: absolute;
+  right: 11px;
+  top: -27px;
+}
+/*liste des options*/
+#listParamaitre{
+    width:120px;
+    display: none;
+    margin: 0px;
+    padding: 0px 0px;
+    position: absolute;
+    right: 11px;
+    top: 52px;
+}
+#listParamaitre>a{
+  line-height: normal;
+  text-align: justify;
+  text-indent: 10px;
+  display: block;
+  padding: 9px 0px;
+  background-color: rgb(244, 81, 30);
+  color: #fff;
+  font-family: "Roboto",sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+#listParamaitre>a:hover{
+  background-color: rgba(255, 255, 255, 1);
+  color: #039be5;
+}

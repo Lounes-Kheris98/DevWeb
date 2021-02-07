@@ -1,0 +1,62 @@
+/*liste des objets*/
+#listObjet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*titre de thémes*/
+#titleTheme{
+    margin-left: 2vw;
+}
+
+#titleTheme h1{
+    font-size: 25px;
+    white-space: nowrap;
+}
+
+/*les questions*/
+.question{
+    background: #ececec;
+    color: #333;
+}
+
+.question>div>a>h3{
+    font-size: 15px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: black;
+}
+
+.question div:last-child{
+    margin-top: 2%;
+}
+
+.question>div>a>p{
+    color: rgba(51,51,51,.5);
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.question>div>a>p>strong{
+    color: #333;
+    font-weight: bold;
+}
+
+.nbMessage pre{
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+    overflow: hidden;
+}
+
+/*pliante*/
+.collapsible-header{
+    font-weight: bold;
+    text-align: center;
+    background-color: #024967;
+    color: white;
+}

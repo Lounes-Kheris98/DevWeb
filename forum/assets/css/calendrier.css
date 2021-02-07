@@ -1,0 +1,24 @@
+/*calendrier de l'accueil*/
+.cal_calendrier{
+    border-collapse: collapse;
+    padding:1px;
+    width:300px;
+    margin: auto;
+    height:200px;
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+}
+
+.cal_calendrier th{
+    color: #000;
+    text-align: center;
+}
+.cal_calendrier td{
+    background-color: #c8c8c81a;
+    text-align:center;
+    color: #000;
+    padding: 10px 5px;
+}
+#cal_aujourdhui{
+    background-color: rgba(194, 187, 187, 0.28);
+}
